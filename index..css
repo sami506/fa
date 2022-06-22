@@ -1,0 +1,99 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: blueviolet;
+    color: #fff;
+}
+h1{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 30px;
+}
+.task{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 20px;
+    background: rgba(24, 60, 98, 0.6);
+    box-shadow: 0 8px 32px 0 rgba(2, 2, 37, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 13px );
+    border-radius: 10px;
+    border: 1px solid rgba(133, 42, 42, 0.18);
+    border-bottom: #fff solid 3px;
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    font-size: 20px;
+
+}
+.iqon{
+   padding-left: 10px;
+   font-size: 22px;
+   
+}
+.icon-angry2{
+    color: rgb(233, 227, 116);
+    font-size: 24px;
+}
+.iqon:hover{
+    font-size: 24px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.icon-star , .icon-trash{
+    opacity: 0.4;
+}
+.icon-star:hover{
+    color: orange;
+    opacity: 1;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+form{
+    text-align: center;
+}
+input{
+    padding: 10px 20px;
+    border-radius: 6px;
+    width: 35vw;
+    font-size: 21px;
+    text-align: center;
+}
+button {all: unset;}
+.icon-upload{
+    font-size: 40px;
+    margin-left: 17px;
+    position: relative;
+    top: 9px;
+}
+.icon-upload:hover{
+    font-size: 43px;
+    transition: 0.2s;
+    color: aquamarine;
+}
+.na{
+    display: none;
+}
+.icon-heart{
+    color: red;
+}
+.finash{
+   text-decoration-line:line-through;
+    text-decoration-style: wavy;
+}
+.org{
+    color: orange;
+    opacity: 1;
+}
